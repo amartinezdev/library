@@ -225,4 +225,9 @@ footer a:hover {
     .btn {
         padding: 15px 30px;
     }
+
+    .book-details{
+        justify-content: start;
+        gap: 70px;
+    }
 }
