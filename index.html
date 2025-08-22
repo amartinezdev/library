@@ -16,27 +16,7 @@
         <button onclick="openForm()" id="openBtn" class="btn">New Book</button>
       </header>
       <section>
-        <div class="book-list">
-          <div class="book-item">
-            <header class="book-header">
-              <h2 class="book-title">${title}</h2>
-            </header>
-            <section class="book-details">
-              <div class="book-info">
-                <p class="book-author">Author: ${author}</p>
-                <p class="book-pages">Pages: ${pages}</p>
-              </div>
-              <div class="select-container">
-                <select id="read-main" name="read">
-                  <option value="yes">To read</option>
-                  <option value="reading">Currently reading</option>
-                  <option value="completed">Completed</option>
-                  <option value="delete">Delete</option>
-                </select>
-              </div>
-            </section>
-          </div>
-        </div>
+        <div class="book-list"></div>
         <dialog id="myDialog">
           <button id="closeBtn">x</button>
           <h2>New Book</h2>
