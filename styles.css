@@ -72,7 +72,8 @@ header{
     border: 1px solid #ccc;
     border-radius: 10px;
     text-wrap: wrap;
-    overflow: hidden;
+    overflow: auto;
+    overflow-x: hidden;
     transition: 0.3s ease;
 }
 
